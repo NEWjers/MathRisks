@@ -16,5 +16,31 @@ namespace Ex2
         {
             InitializeComponent();
         }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            double possibility11 = 0.5;
+            double possibility12 = 0.5;
+            double possibility21 = 0.99;
+            double possibility22 = 0.01;
+            double profit11 = 3000;
+            double profit12 = 2000;
+            double profit21 = 2510;
+            double profit22 = 1510;
+            double m1 = possibility11 * profit11 + possibility12 * profit12;
+            double m2 = possibility21 * profit21 + possibility22 * profit22;
+            double v1 = Math.Pow((profit11 - m1), 2) * possibility11 + Math.Pow((profit12 - m1), 2) * possibility12;
+            double v2 = Math.Pow((profit21 - m2), 2) * possibility21 + Math.Pow((profit22 - m2), 2) * possibility22;
+            double sigma1 = Math.Sqrt(v1);
+            double sigma2 = Math.Sqrt(v2);
+            double cv1 = sigma1 / m1;
+            double cv2 = sigma2 / m2;
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            pbTask.Image = Image.FromFile("C:\\Users\\Asus\\Desktop\\Универ\\Мельник\\MathRisks\\Ex2\\Ex2\\Task.png");
+        }
     }
 }
