@@ -30,7 +30,10 @@
         {
             this.pbTask = new System.Windows.Forms.PictureBox();
             this.btnStart = new System.Windows.Forms.Button();
-            this.lblResult = new System.Windows.Forms.Label();
+            this.lblResultM = new System.Windows.Forms.Label();
+            this.lblResultSigma = new System.Windows.Forms.Label();
+            this.lblResultCV = new System.Windows.Forms.Label();
+            this.lblResultCSV = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbTask)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,20 +55,47 @@
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
-            // lblResult
+            // lblResultM
             // 
-            this.lblResult.AutoSize = true;
-            this.lblResult.Location = new System.Drawing.Point(334, 341);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(0, 13);
-            this.lblResult.TabIndex = 2;
+            this.lblResultM.AutoSize = true;
+            this.lblResultM.Location = new System.Drawing.Point(262, 296);
+            this.lblResultM.Name = "lblResultM";
+            this.lblResultM.Size = new System.Drawing.Size(0, 13);
+            this.lblResultM.TabIndex = 2;
+            // 
+            // lblResultSigma
+            // 
+            this.lblResultSigma.AutoSize = true;
+            this.lblResultSigma.Location = new System.Drawing.Point(262, 316);
+            this.lblResultSigma.Name = "lblResultSigma";
+            this.lblResultSigma.Size = new System.Drawing.Size(0, 13);
+            this.lblResultSigma.TabIndex = 3;
+            // 
+            // lblResultCV
+            // 
+            this.lblResultCV.AutoSize = true;
+            this.lblResultCV.Location = new System.Drawing.Point(265, 333);
+            this.lblResultCV.Name = "lblResultCV";
+            this.lblResultCV.Size = new System.Drawing.Size(0, 13);
+            this.lblResultCV.TabIndex = 4;
+            // 
+            // lblResultCSV
+            // 
+            this.lblResultCSV.AutoSize = true;
+            this.lblResultCSV.Location = new System.Drawing.Point(265, 350);
+            this.lblResultCSV.Name = "lblResultCSV";
+            this.lblResultCSV.Size = new System.Drawing.Size(0, 13);
+            this.lblResultCSV.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblResult);
+            this.Controls.Add(this.lblResultCSV);
+            this.Controls.Add(this.lblResultCV);
+            this.Controls.Add(this.lblResultSigma);
+            this.Controls.Add(this.lblResultM);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.pbTask);
             this.Name = "Form1";
@@ -81,7 +111,10 @@
 
         private System.Windows.Forms.PictureBox pbTask;
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.Label lblResultM;
+        private System.Windows.Forms.Label lblResultSigma;
+        private System.Windows.Forms.Label lblResultCV;
+        private System.Windows.Forms.Label lblResultCSV;
     }
 }
 

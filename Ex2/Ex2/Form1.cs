@@ -35,7 +35,42 @@ namespace Ex2
             double sigma2 = Math.Sqrt(v2);
             double cv1 = sigma1 / m1;
             double cv2 = sigma2 / m2;
-
+            double ssv1 = Math.Sqrt(Math.Pow((profit12 - m1), 2) * possibility12);
+            double ssv2 = Math.Sqrt(Math.Pow((profit22 - m2), 2) * possibility22);
+            double csv1 = ssv1 / m1;
+            double csv2 = ssv2 / m2;
+            if(m1 > m2)
+            {
+                lblResultM.Text = "Project 1";
+            }
+            else if(m2 > m1)
+            {
+                lblResultM.Text = "Project 2";
+            }
+            if(sigma1 < sigma2)
+            {
+                lblResultSigma.Text = "Project 1";
+            }
+            else if(sigma2 < sigma1)
+            {
+                lblResultSigma.Text = "Project 2";
+            }
+            if(cv1 < cv2)
+            {
+                lblResultCV.Text = "Project 1";
+            }
+            else if(cv2 < cv1)
+            {
+                lblResultCV.Text = "Project 2";
+            }
+            if(csv1 < csv2)
+            {
+                lblResultCSV.Text = "Project 1";
+            }
+            else if(csv2 < csv1)
+            {
+                lblResultCSV.Text = "Project 2";
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
