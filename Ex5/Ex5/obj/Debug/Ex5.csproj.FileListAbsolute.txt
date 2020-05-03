@@ -1,0 +1,9 @@
+C:\Users\Asus\Desktop\Универ\Мельник\MathRisks\Ex5\Ex5\bin\Debug\Ex5.exe.config
+C:\Users\Asus\Desktop\Универ\Мельник\MathRisks\Ex5\Ex5\bin\Debug\Ex5.exe
+C:\Users\Asus\Desktop\Универ\Мельник\MathRisks\Ex5\Ex5\bin\Debug\Ex5.pdb
+C:\Users\Asus\Desktop\Универ\Мельник\MathRisks\Ex5\Ex5\obj\Debug\Ex5.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\Универ\Мельник\MathRisks\Ex5\Ex5\obj\Debug\Ex5.Form1.resources
+C:\Users\Asus\Desktop\Универ\Мельник\MathRisks\Ex5\Ex5\obj\Debug\Ex5.Properties.Resources.resources
+C:\Users\Asus\Desktop\Универ\Мельник\MathRisks\Ex5\Ex5\obj\Debug\Ex5.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Универ\Мельник\MathRisks\Ex5\Ex5\obj\Debug\Ex5.exe
+C:\Users\Asus\Desktop\Универ\Мельник\MathRisks\Ex5\Ex5\obj\Debug\Ex5.pdb
